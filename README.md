@@ -1,6 +1,7 @@
 # Fuel Rats caseTracker
 
-This script saves the case number together with the client name. This enables alises to use case numbers and ping the client. It is designed to work with the [fuelrats-dispatch-aliases](https://github.com/LittleFool/fuelrats-dispatch-aliases).
+This script saves the case number together with the client name. It is designed to work with the [fuelrats-dispatch-aliases](https://github.com/LittleFool/fuelrats-dispatch-aliases).
+You can then use the dispatch-aliases with case numbers only e.g. `/wing 2` will print `<client name of case 2> now, please invite your rat(s) to a wing.` and then `!wing 2`. So it only pings the client for actualy readable text and no commands/facts.
 
 ## Installation
 
